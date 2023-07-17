@@ -1,0 +1,4 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code files.
+
+type: "motherduck"
+query: "select * from my_db.trip_data limit 10000"
