@@ -1,0 +1,4 @@
+type: "bigquery"
+query: "SELECT * FROM `moloco-ae-prod.looker.campaign_raw_all` LIMIT 1"
+enable_storage_api: true
+project_id: "rilldata"
