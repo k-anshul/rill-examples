@@ -1,0 +1,65 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+title: "fdsahgsfg_dashboard"
+model: "fdsahgsfg_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "date_created"
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+    valid_percent_of_total: true
+dimensions:
+  - name: report_number
+    label: Report_number
+    column: report_number
+    description: ""
+  - name: reactions
+    label: Reactions
+    column: reactions
+    description: ""
+  - name: outcomes
+    label: Outcomes
+    column: outcomes
+    description: ""
+  - name: products_brand_name
+    label: Products_brand_name
+    column: products_brand_name
+    description: ""
+  - name: products_industry_code
+    label: Products_industry_code
+    column: products_industry_code
+    description: ""
+  - name: products_role
+    label: Products_role
+    column: products_role
+    description: ""
+  - name: products_industry_name
+    label: Products_industry_name
+    column: products_industry_name
+    description: ""
+  - name: consumer_gender
+    label: Consumer_gender
+    column: consumer_gender
+    description: ""
+  - name: consumer_age_unit
+    label: Consumer_age_unit
+    column: consumer_age_unit
+    description: ""
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney

@@ -2,4 +2,4 @@
 
 type: "bigquery"
 sql: "SELECT * FROM `bigquery-public-data.fda_food.food_events` where consumer_age is not null LIMIT 1000"
-projectid: "rilldata"
+project_id: "rilldata"
