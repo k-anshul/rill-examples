@@ -1,0 +1,5 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code files.
+
+type: "bigquery"
+sql: "SELECT * FROM `bigquery-public-data.baseball.games_wide`  where venueName in (select venueName from ( select avg(pitchSpeed) as speed, venueName from `bigquery-public-data.baseball.games_wide` group by venueName order by speed desc limit 10));"
+projectid: "rilldata"

@@ -1,0 +1,5 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code files.
+
+type: "bigquery"
+sql: "SELECT * except(action, result, trace_address) FROM `bigquery-public-data.blockchain_analytics_ethereum_mainnet_us.traces` WHERE TIMESTAMP_TRUNC(block_timestamp, MONTH) = TIMESTAMP_TRUNC('2023-07-20', MONTH) LIMIT 1000"
+projectid: "rilldata"
