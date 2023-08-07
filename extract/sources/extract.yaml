@@ -1,0 +1,7 @@
+type: "gcs"
+uri: "gs://scratch.rilldata.com/diff-data/year=*/*.csv"
+extract:
+  files:
+    strategy: tail
+    size: 5
+

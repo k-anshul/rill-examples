@@ -1,0 +1,4 @@
+# Visit https://docs.rilldata.com/ to learn more about Rill code files.
+
+type: "s3"
+uri: "s3://ookla-open-data/parquet/performance/type=fixed/year=2019/quarter=1/2019-01-01_performance_fixed_tiles.parquet"

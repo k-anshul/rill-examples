@@ -1,0 +1,49 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+title: "performance_fixed_tiles_dashboard"
+model: "performance_fixed_tiles_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: ""
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+    valid_percent_of_total: true
+dimensions:
+  - name: quadkey
+    label: Quadkey
+    column: quadkey
+    description: ""
+  - name: tile
+    label: Tile
+    column: tile
+    description: ""
+  - name: quarter
+    label: Quarter
+    column: quarter
+    description: ""
+  - name: type
+    label: Type
+    column: type
+    description: ""
+  - name: year
+    label: Year
+    column: year
+    description: ""
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
