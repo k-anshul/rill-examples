@@ -1,0 +1,1 @@
+select * from bq_1mill

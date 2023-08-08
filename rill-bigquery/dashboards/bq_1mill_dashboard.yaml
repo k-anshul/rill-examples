@@ -1,0 +1,217 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+title: "bq_1mill_dashboard"
+model: "bq_1mill_model"
+default_time_range: ""
+smallest_time_grain: ""
+timeseries: "ts"
+measures:
+  - label: Total records
+    expression: count(*)
+    name: total_records
+    description: Total number of records present
+    format_preset: humanize
+    valid_percent_of_total: true
+dimensions:
+  - name: inventory_key
+    label: Inventory_key
+    column: inventory_key
+    description: ""
+  - name: inventory_ssp_id
+    label: Inventory_ssp_id
+    column: inventory_ssp_id
+    description: ""
+  - name: inventory_dsp_id
+    label: Inventory_dsp_id
+    column: inventory_dsp_id
+    description: ""
+  - name: publisher_id
+    label: Publisher_id
+    column: publisher_id
+    description: ""
+  - name: placement_id
+    label: Placement_id
+    column: placement_id
+    description: ""
+  - name: crid
+    label: Crid
+    column: crid
+    description: ""
+  - name: country_id
+    label: Country_id
+    column: country_id
+    description: ""
+  - name: ad_width
+    label: Ad_width
+    column: ad_width
+    description: ""
+  - name: ad_height
+    label: Ad_height
+    column: ad_height
+    description: ""
+  - name: endpoint_id
+    label: Endpoint_id
+    column: endpoint_id
+    description: ""
+  - name: deal_ssp_id
+    label: Deal_ssp_id
+    column: deal_ssp_id
+    description: ""
+  - name: dsp_id
+    label: Dsp_id
+    column: dsp_id
+    description: ""
+  - name: seat_id
+    label: Seat_id
+    column: seat_id
+    description: ""
+  - name: deal_dsp_id
+    label: Deal_dsp_id
+    column: deal_dsp_id
+    description: ""
+  - name: traffic_id
+    label: Traffic_id
+    column: traffic_id
+    description: ""
+  - name: platform_id
+    label: Platform_id
+    column: platform_id
+    description: ""
+  - name: os_id
+    label: Os_id
+    column: os_id
+    description: ""
+  - name: agency
+    label: Agency
+    column: agency
+    description: ""
+  - name: advertiser
+    label: Advertiser
+    column: advertiser
+    description: ""
+  - name: city_id
+    label: City_id
+    column: city_id
+    description: ""
+  - name: dma_id
+    label: Dma_id
+    column: dma_id
+    description: ""
+  - name: carrier
+    label: Carrier
+    column: carrier
+    description: ""
+  - name: ssp_requests
+    label: Ssp_requests
+    column: ssp_requests
+    description: ""
+  - name: ssp_valid_requests
+    label: Ssp_valid_requests
+    column: ssp_valid_requests
+    description: ""
+  - name: deal_ssp_request
+    label: Deal_ssp_request
+    column: deal_ssp_request
+    description: ""
+  - name: ssp_cookie_requests
+    label: Ssp_cookie_requests
+    column: ssp_cookie_requests
+    description: ""
+  - name: platform_cookies
+    label: Platform_cookies
+    column: platform_cookies
+    description: ""
+  - name: cookie_requests
+    label: Cookie_requests
+    column: cookie_requests
+    description: ""
+  - name: requests
+    label: Requests
+    column: requests
+    description: ""
+  - name: timeout_requests
+    label: Timeout_requests
+    column: timeout_requests
+    description: ""
+  - name: seat_requests
+    label: Seat_requests
+    column: seat_requests
+    description: ""
+  - name: deal_dsp_request
+    label: Deal_dsp_request
+    column: deal_dsp_request
+    description: ""
+  - name: seat_deal_dsp_request
+    label: Seat_deal_dsp_request
+    column: seat_deal_dsp_request
+    description: ""
+  - name: responses
+    label: Responses
+    column: responses
+    description: ""
+  - name: wins
+    label: Wins
+    column: wins
+    description: ""
+  - name: ssp_wins
+    label: Ssp_wins
+    column: ssp_wins
+    description: ""
+  - name: imps
+    label: Imps
+    column: imps
+    description: ""
+  - name: clicks
+    label: Clicks
+    column: clicks
+    description: ""
+  - name: video_events_complete
+    label: Video_events_complete
+    column: video_events_complete
+    description: ""
+  - name: ssp_bidfloor
+    label: Ssp_bidfloor
+    column: ssp_bidfloor
+    description: ""
+  - name: dsp_bidfloor
+    label: Dsp_bidfloor
+    column: dsp_bidfloor
+    description: ""
+  - name: deal_ssp_bidfloor
+    label: Deal_ssp_bidfloor
+    column: deal_ssp_bidfloor
+    description: ""
+  - name: deal_dsp_bidfloor
+    label: Deal_dsp_bidfloor
+    column: deal_dsp_bidfloor
+    description: ""
+  - name: ssp_bid_price
+    label: Ssp_bid_price
+    column: ssp_bid_price
+    description: ""
+  - name: dsp_bid_price
+    label: Dsp_bid_price
+    column: dsp_bid_price
+    description: ""
+  - name: ssp_price
+    label: Ssp_price
+    column: ssp_price
+    description: ""
+  - name: dsp_price
+    label: Dsp_price
+    column: dsp_price
+    description: ""
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
