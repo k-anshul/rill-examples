@@ -1,5 +1,5 @@
 # Visit https://docs.rilldata.com/ to learn more about Rill code files.
 
 type: "bigquery"
-sql: "SELECT * FROM `bigquery-public-data.fda_food.food_events` where consumer_age is not null LIMIT 1000"
+sql: "SELECT * FROM `bigquery-public-data.fda_food.food_events` where consumer_age is not null LIMIT 1000000"
 project_id: "rilldata"
