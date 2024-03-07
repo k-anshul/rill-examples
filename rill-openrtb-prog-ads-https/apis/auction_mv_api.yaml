@@ -1,0 +1,4 @@
+kind: api
+
+metrics:
+  sql: SELECT device_os, AGGREGATE(requests) AS requests ,AGGREGATE(avg_bid_floor) AS avg_bid_floor,AGGREGATE(qps) AS qps  FROM auction GROUP BY ALL

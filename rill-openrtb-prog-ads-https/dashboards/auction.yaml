@@ -6,13 +6,16 @@ timeseries: "__time"
 measures:
   - label: Requests
     expression: sum(bid_request_cnt)
+    name: requests
     description: Total Requests
     format_preset: humanize
   - label: "Avg Bid Floor"
+    name: avg_bid_floor
     expression: "sum(bid_floor) / sum(has_bid_floor_cnt) "
     description: "Average Bid Floor"
     format_preset: currency_usd
   - label: "1D QPS"
+    name: qps
     expression: "sum(bid_request_cnt) / 86400 "
     description: "1D QPS"
     format_preset: humanize

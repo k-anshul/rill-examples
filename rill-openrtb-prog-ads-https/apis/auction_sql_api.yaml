@@ -1,0 +1,3 @@
+kind: api
+
+sql: SELECT * FROM auction_data_raw LIMIT {{ default 20 .limit}} 
