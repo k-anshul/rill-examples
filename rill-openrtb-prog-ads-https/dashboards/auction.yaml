@@ -79,7 +79,7 @@ default_time_range: "P1D"
 
 security:
   access: true
-  exclude:
+  include:
     - if: "{{ .user.admin }}"
       names: 
         - avg_bid_floor
