@@ -76,3 +76,11 @@ dimensions:
     description: ""
 smallest_time_grain: "hour"
 default_time_range: "P1D"
+
+security:
+  access: "{{ .user.admin }}"
+  exclude:
+    - if: "true != false"
+      names: 
+        - avg_bid_floor
+        - qps 
