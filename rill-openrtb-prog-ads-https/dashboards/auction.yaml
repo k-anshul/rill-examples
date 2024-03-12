@@ -78,9 +78,9 @@ smallest_time_grain: "hour"
 default_time_range: "P1D"
 
 security:
-  access: "{{ .user.admin }}"
+  access: true
   exclude:
-    - if: "true != false"
+    - if: "{{ .user.admin }}"
       names: 
         - avg_bid_floor
         - qps 
