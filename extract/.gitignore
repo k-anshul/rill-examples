@@ -2,3 +2,7 @@
 *.db
 *.db.tmp
 *.db.wal
+
+.DS_Store
+*.db
+*.db.wal
